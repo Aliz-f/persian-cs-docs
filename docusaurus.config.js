@@ -28,7 +28,7 @@ const config = {
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'aliz-f', // Usually your GitHub org/user name.
-    projectName: 'aliz-cs.github.io', // Usually your repo name.
+    projectName: 'persian-cs-docs', // Usually your repo name.
     trailingSlash: false,
     deploymentBranch: 'main',
     onBrokenLinks: 'throw',
