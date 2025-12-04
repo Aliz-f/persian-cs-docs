@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://aliznet.ir/blog</id>
+    <title>پایگاه مستندات فارسی Blog</title>
+    <updated>2025-12-06T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://aliznet.ir/blog"/>
+    <subtitle>پایگاه مستندات فارسی Blog</subtitle>
+    <icon>https://aliznet.ir/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[پایگاه مستندات فارسی]]></title>
+        <id>https://aliznet.ir/blog/readme</id>
+        <link href="https://aliznet.ir/blog/readme"/>
+        <updated>2025-12-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AlizNet – Persian Computer Science Documentation]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="aliznet--persian-computer-science-documentation">AlizNet – Persian Computer Science Documentation<a href="https://aliznet.ir/blog/readme#aliznet--persian-computer-science-documentation" class="hash-link" aria-label="لینک مستقیم به AlizNet – Persian Computer Science Documentation" title="لینک مستقیم به AlizNet – Persian Computer Science Documentation" translate="no">​</a></h2>
+<p>این مخزن با هدف تولید، توسعه و نگهداری <strong>مستندات فارسیِ باکیفیت</strong> در حوزه‌های برنامه‌نویسی، علوم کامپیوتر، امنیت، شبکه و فناوری ایجاد شده است.<br>
+<!-- -->هدف ما ایجاد یک <strong>کتابخانه‌ی جامع و استاندارد فارسی</strong> است تا افرادی که تسلط کافی روی منابع انگلیسی ندارند نیز بتوانند به شکل حرفه‌ای یاد بگیرند.</p>
+<p>این پروژه با <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer" class=""><strong>Docusaurus</strong></a> ساخته شده و با کمک جامعه توسعه می‌یابد. 🙌<br>
+<!-- -->اگر قصد مشارکت دارید، لطفاً این README را کامل مطالعه کنید. ❤️</p>
+<hr>
+<h1>🌟 انواع مشارکت (Contribution Types)</h1>
+<p>در این پروژه می‌توانید در سه بخش مشارکت کنید:</p>
+<ol>
+<li class="">🚀 <strong>بهبود کد سایت</strong></li>
+<li class="">📚 <strong>افزودن مستندات جدید (Docs)</strong></li>
+<li class="">📝 <strong>نوشتن پست بلاگ (Blog Posts)</strong></li>
+</ol>
+<p>هر بخش قوانین دقیقس دارد که در ادامه توضیح داده شده‌اند.</p>
+<hr>
+<h1>🚀 ۱. مشارکت در بهبود کد سایت (Development)</h1>
+<p>اگر می‌خواهید در توسعه Docusaurus، UI، تنظیمات یا ساختار پروژه کمک کنید:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-مراحل">✔ مراحل:<a href="https://aliznet.ir/blog/readme#-%D9%85%D8%B1%D8%A7%D8%AD%D9%84" class="hash-link" aria-label="لینک مستقیم به ✔ مراحل:" title="لینک مستقیم به ✔ مراحل:" translate="no">​</a></h3>
+<ol>
+<li class="">مخزن را Fork کنید.</li>
+<li class="">یک Branch جدید ایجاد کنید.</li>
+<li class="">تغییرات را انجام دهید.</li>
+<li class="">پروژه را محلی اجرا کنید:</li>
+</ol>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm run start</span><br></span></code></pre></div></div>
+<ol start="5">
+<li class="">قبل از ارسال PR حتماً Build بگیرید:</li>
+</ol>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm run build</span><br></span></code></pre></div></div>
+<p>سپس درخواست Pull را ارسال کنید و دقیقا توضیح دهید:</p>
+<ul>
+<li class="">چه چیزی تغییر کرده؟</li>
+<li class="">چرا؟</li>
+<li class="">چه تستی انجام شده؟</li>
+</ul>
+<hr>
+<h1>📚 ۲. افزودن مستندات جدید (Docs)</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-۱۲-قوانین-کلی-محتوا">🟢 ۱.۲. قوانین کلی محتوا<a href="https://aliznet.ir/blog/readme#-%DB%B1%DB%B2-%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86-%DA%A9%D9%84%DB%8C-%D9%85%D8%AD%D8%AA%D9%88%D8%A7" class="hash-link" aria-label="لینک مستقیم به 🟢 ۱.۲. قوانین کلی محتوا" title="لینک مستقیم به 🟢 ۱.۲. قوانین کلی محتوا" translate="no">​</a></h2>
+<p>✔ <strong>محتوا حتماً باید فارسی باشد.</strong></p>
+<p>✔ کیفیت محتوا مهم است: غلط‌های زیاد، ترجمهٔ تحت‌اللفظی یا محتوای ضعیف پذیرفته نمی‌شود.</p>
+<p>✔ فایل باید با فرمت‌های زیر باشد: (<a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer" class="">اطلاعات بیشتر</a>)</p>
+<ul>
+<li class=""><code>.md</code></li>
+<li class=""><code>.mdx</code></li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-۲۲-مسیر-قرارگیری-درست-فایلها">🟦 ۲.۲. مسیر قرارگیری درست فایل‌ها<a href="https://aliznet.ir/blog/readme#-%DB%B2%DB%B2-%D9%85%D8%B3%DB%8C%D8%B1-%D9%82%D8%B1%D8%A7%D8%B1%DA%AF%DB%8C%D8%B1%DB%8C-%D8%AF%D8%B1%D8%B3%D8%AA-%D9%81%D8%A7%DB%8C%D9%84%D9%87%D8%A7" class="hash-link" aria-label="لینک مستقیم به 🟦 ۲.۲. مسیر قرارگیری درست فایل‌ها" title="لینک مستقیم به 🟦 ۲.۲. مسیر قرارگیری درست فایل‌ها" translate="no">​</a></h2>
+<p>تمام محتوا داخل فولدر <code>docs/</code> قرار می‌گیرد.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="مثال">مثال:<a href="https://aliznet.ir/blog/readme#%D9%85%D8%AB%D8%A7%D9%84" class="hash-link" aria-label="لینک مستقیم به مثال:" title="لینک مستقیم به مثال:" translate="no">​</a></h3>
+<p>اگر درباره <em>کاربردهای پایتون</em> می‌نویسید:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docs/python/basics/introduction.mdx</span><br></span></code></pre></div></div>
+<p>پوشه‌ها باید مطابق ساختار استاندارد باشند.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-۳۲-مقداردهی-frontmatter-الزامی">🟡 ۳.۲. مقداردهی frontmatter (الزامی)<a href="https://aliznet.ir/blog/readme#-%DB%B3%DB%B2-%D9%85%D9%82%D8%AF%D8%A7%D8%B1%D8%AF%D9%87%DB%8C-frontmatter-%D8%A7%D9%84%D8%B2%D8%A7%D9%85%DB%8C" class="hash-link" aria-label="لینک مستقیم به 🟡 ۳.۲. مقداردهی frontmatter (الزامی)" title="لینک مستقیم به 🟡 ۳.۲. مقداردهی frontmatter (الزامی)" translate="no">​</a></h2>
+<p>در ابتدای هر فایل اضافه کنید:</p>
+<div class="language-yaml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-yaml codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">---</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">sidebar_position</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">1</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">slug</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> /python/basics/introduction</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">---</span><br></span></code></pre></div></div>
+<p>✔ متغییر <code>slug</code> باید با ساختار فولدر شما <em>همخوانی کامل</em> داشته باشد.</p>
+<p>✔ آدرس نهایی صفحه:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">https://aliznet.ir/docs/python/basics/introduction</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-۴۲-ساخت-دستهبندی-جدید-category">🟣 ۴.۲. ساخت دسته‌بندی جدید (Category)<a href="https://aliznet.ir/blog/readme#-%DB%B4%DB%B2-%D8%B3%D8%A7%D8%AE%D8%AA-%D8%AF%D8%B3%D8%AA%D9%87%D8%A8%D9%86%D8%AF%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF-category" class="hash-link" aria-label="لینک مستقیم به 🟣 ۴.۲. ساخت دسته‌بندی جدید (Category)" title="لینک مستقیم به 🟣 ۴.۲. ساخت دسته‌بندی جدید (Category)" translate="no">​</a></h2>
+<p>اگر موضوع از قبل وجود ندارد:</p>
+<ol>
+<li class="">فولدر بسازید (مثلاً: <code>docs/web-security/</code>)</li>
+<li class="">در فولدر ساخته شده فایل زیر را ایجاد کنید: (<code>category_.json_</code>)</li>
+</ol>
+<div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"label"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"امنیت وب"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"position"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">3</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"collapsed"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token boolean" style="color:#36acaa">true</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"link"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"type"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"generated-index"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"slug"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"/category/web-security"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+<p>✔ متغییر <code>slug</code> باید شامل <code>category</code> + <em>نام فولدر</em> باشد.</p>
+<p>✔ متغییر <code>position</code> ترتیب دسته در سایدبار را مشخص می‌کند.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-۵۲-افزودن-دسته-به-صفحه-اصلی-سایت">🟩 ۵.۲. افزودن دسته به صفحه اصلی سایت<a href="https://aliznet.ir/blog/readme#-%DB%B5%DB%B2-%D8%A7%D9%81%D8%B2%D9%88%D8%AF%D9%86-%D8%AF%D8%B3%D8%AA%D9%87-%D8%A8%D9%87-%D8%B5%D9%81%D8%AD%D9%87-%D8%A7%D8%B5%D9%84%DB%8C-%D8%B3%D8%A7%DB%8C%D8%AA" class="hash-link" aria-label="لینک مستقیم به 🟩 ۵.۲. افزودن دسته به صفحه اصلی سایت" title="لینک مستقیم به 🟩 ۵.۲. افزودن دسته به صفحه اصلی سایت" translate="no">​</a></h2>
+<p>در فایل:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docs/export_courses.js</span><br></span></code></pre></div></div>
+<p>کد مشابه زیر اضافه کنید:</p>
+<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword module" style="color:#00009f">import</span><span class="token plain"> </span><span class="token imports">python_category</span><span class="token plain"> </span><span class="token keyword module" style="color:#00009f">from</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'./python/_category_.json'</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">const</span><span class="token plain"> cardsList </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token literal-property property" style="color:#36acaa">title</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> python_category</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">label</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token literal-property property" style="color:#36acaa">url</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token template-string template-punctuation string" style="color:#e3116c">`</span><span class="token template-string string" style="color:#e3116c">docs/</span><span class="token template-string interpolation interpolation-punctuation punctuation" style="color:#393A34">${</span><span class="token template-string interpolation">python_category</span><span class="token template-string interpolation punctuation" style="color:#393A34">.</span><span class="token template-string interpolation property-access">link</span><span class="token template-string interpolation punctuation" style="color:#393A34">.</span><span class="token template-string interpolation property-access">slug</span><span class="token template-string interpolation punctuation" style="color:#393A34">.</span><span class="token template-string interpolation method function property-access" style="color:#d73a49">split</span><span class="token template-string interpolation punctuation" style="color:#393A34">(</span><span class="token template-string interpolation string" style="color:#e3116c">"/"</span><span class="token template-string interpolation punctuation" style="color:#393A34">)</span><span class="token template-string interpolation punctuation" style="color:#393A34">.</span><span class="token template-string interpolation method function property-access" style="color:#d73a49">slice</span><span class="token template-string interpolation punctuation" style="color:#393A34">(</span><span class="token template-string interpolation operator" style="color:#393A34">-</span><span class="token template-string interpolation number" style="color:#36acaa">1</span><span class="token template-string interpolation punctuation" style="color:#393A34">)</span><span class="token template-string interpolation punctuation" style="color:#393A34">[</span><span class="token template-string interpolation number" style="color:#36acaa">0</span><span class="token template-string interpolation punctuation" style="color:#393A34">]</span><span class="token template-string interpolation interpolation-punctuation punctuation" style="color:#393A34">}</span><span class="token template-string template-punctuation string" style="color:#e3116c">`</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword module" style="color:#00009f">export</span><span class="token plain"> </span><span class="token keyword module" style="color:#00009f">default</span><span class="token plain"> cardsList</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<p>این مورد باعث نمایش دسته‌بندی به‌صورت کارت (Course) در صفحه اول می‌شود. 🎉</p>
+<hr>
+<h1>📝 ۳. قوانین نوشتن پست بلاگ (Blog)</h1>
+<p>پست‌های بلاگ در مسیر زیر قرار می‌گیرند:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">blog/</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-۱۳-افزودن-نویسنده-author">👤 ۱.۳. افزودن نویسنده (Author)<a href="https://aliznet.ir/blog/readme#-%DB%B1%DB%B3-%D8%A7%D9%81%D8%B2%D9%88%D8%AF%D9%86-%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%D9%87-author" class="hash-link" aria-label="لینک مستقیم به 👤 ۱.۳. افزودن نویسنده (Author)" title="لینک مستقیم به 👤 ۱.۳. افزودن نویسنده (Author)" translate="no">​</a></h2>
+<p>دو فایل مهم وجود دارد:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-authorsyaml--اجباری">✔ <code>authors.yaml</code> → <strong>اجباری</strong><a href="https://aliznet.ir/blog/readme#-authorsyaml--%D8%A7%D8%AC%D8%A8%D8%A7%D8%B1%DB%8C" class="hash-link" aria-label="لینک مستقیم به -authorsyaml--اجباری" title="لینک مستقیم به -authorsyaml--اجباری" translate="no">​</a></h3>
+<p>اگر نام شما در این فایل نباشد، <strong>امکان انتشار پست ندارید</strong> ❗</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-authorsjson--اختیاری">✔ <code>authors.json</code> → <strong>اختیاری</strong><a href="https://aliznet.ir/blog/readme#-authorsjson--%D8%A7%D8%AE%D8%AA%DB%8C%D8%A7%D8%B1%DB%8C" class="hash-link" aria-label="لینک مستقیم به -authorsjson--اختیاری" title="لینک مستقیم به -authorsjson--اختیاری" translate="no">​</a></h3>
+<p>اگر اینجا نباشید، فقط <strong>در صفحه اصلی سایت نمایش داده نمی‌شوید</strong>.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="مثال-1">مثال:<a href="https://aliznet.ir/blog/readme#%D9%85%D8%AB%D8%A7%D9%84-1" class="hash-link" aria-label="لینک مستقیم به مثال:" title="لینک مستقیم به مثال:" translate="no">​</a></h4>
+<p><code>authors.yaml</code>:</p>
+<div class="language-yaml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-yaml codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token key atrule" style="color:#00a4db">alireza</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">name</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> Alireza</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">title</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> Software Engineer</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">url</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> https</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain">//github.com/aliz</span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain">f</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token key atrule" style="color:#00a4db">image_url</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> https</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain">//arfadaei.ir/assets/images/aliz</span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain">photo.JPG</span><br></span></code></pre></div></div>
+<p><code>authors.json</code>:</p>
+<div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"alireza"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"name"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Aliz"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"title"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"Software Engineer"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token property" style="color:#36acaa">"image_url"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"https://arfadaei.ir/assets/images/aliz-photo.JPG"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-۲۳-ساخت-فایل-پست">📝 ۲.۳. ساخت فایل پست<a href="https://aliznet.ir/blog/readme#-%DB%B2%DB%B3-%D8%B3%D8%A7%D8%AE%D8%AA-%D9%81%D8%A7%DB%8C%D9%84-%D9%BE%D8%B3%D8%AA" class="hash-link" aria-label="لینک مستقیم به 📝 ۲.۳. ساخت فایل پست" title="لینک مستقیم به 📝 ۲.۳. ساخت فایل پست" translate="no">​</a></h2>
+<p>نام فایل باید مطابق الگو باشد:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">year-month-day-name.md</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">year-month-day-name.mdx</span><br></span></code></pre></div></div>
+<p>مثال:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">2025-01-06-first-blog-post.mdx</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-۳۳-بخش-frontmatter-برای-پست-های-بلاگ-الزامی">🔖 ۳.۳. بخش frontmatter برای پست های بلاگ (الزامی):<a href="https://aliznet.ir/blog/readme#-%DB%B3%DB%B3-%D8%A8%D8%AE%D8%B4-frontmatter-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%BE%D8%B3%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A8%D9%84%D8%A7%DA%AF-%D8%A7%D9%84%D8%B2%D8%A7%D9%85%DB%8C" class="hash-link" aria-label="لینک مستقیم به 🔖 ۳.۳. بخش frontmatter برای پست های بلاگ (الزامی):" title="لینک مستقیم به 🔖 ۳.۳. بخش frontmatter برای پست های بلاگ (الزامی):" translate="no">​</a></h2>
+<div class="language-yaml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-yaml codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token punctuation" style="color:#393A34">---</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">slug</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> mdx</span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain">blog</span><span class="token punctuation" style="color:#393A34">-</span><span class="token plain">post</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">title</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> پست وبلاگ MDX</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">authors</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain">alireza</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token key atrule" style="color:#00a4db">tags</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain">docusaurus</span><span class="token punctuation" style="color:#393A34">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">---</span><br></span></code></pre></div></div>
+<p>✔ نام نویسنده باید در لیست شناسه‌های موجود در <code>authors.yaml</code> باشد.</p>
+<p>✔ تگ ها باید از <code>tags.yaml</code> انتخاب شده باشد.</p>
+<hr>
+<h1>⚠️ قوانین مهم کیفیت محتوا</h1>
+<p>برای حفظ استاندارد پروژه:</p>
+<ul>
+<li class="">لغت انگلیسی تخصصی ترجمه شده در متن حتما در پرانتز بعد از معادل ترجمه شده قرار گیرد.</li>
+<li class="">ساختار نوشتار باید تمیز، خوانا و یکپارچه باشد</li>
+<li class="">تصاویر باید در <code>static/img</code> قرار گیرند</li>
+<li class="">مثال‌ها باید قابل اجرا باشند</li>
+</ul>
+<p>هدف ما ایجاد <strong>یک مرجع فارسی باکیفیت</strong> است، نه انبوهی از محتواهای پراکنده و ضعیف.</p>
+<hr>
+<h1>🔧 راهنمای توسعه‌دهندگان (Developers)</h1>
+<p>اجرای پروژه:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm run start</span><br></span></code></pre></div></div>
+<p>ساخت نسخه production:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm run build</span><br></span></code></pre></div></div>
+<p>پیش‌نمایش نسخهٔ ساخته‌شده:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm run serve</span><br></span></code></pre></div></div>
+<hr>
+<h1>❤️ قدردانی</h1>
+<p>از تمام دوستانی که در توسعه این مخزن کمک می‌کنند، سپاس‌گزاریم.
+شما باعث رشد کیفیت منابع فارسی در حوزه کامپیوتر می‌شوید. 🌱</p>
+<p>اگر پیشنهاد یا ایرادی دارید، لطفاً Issue باز کنید. ❤️</p>
+<hr>]]></content>
+        <author>
+            <name>علیرضا</name>
+            <uri>https://arfadaei.ir</uri>
+        </author>
+        <category label="Computer Science" term="Computer Science"/>
+        <category label="Python" term="Python"/>
+        <category label="امنیت" term="امنیت"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[به پروژه AlizNet خوش آمدید!]]></title>
+        <id>https://aliznet.ir/blog/welcome-to-aliznet</id>
+        <link href="https://aliznet.ir/blog/welcome-to-aliznet"/>
+        <updated>2025-12-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[این پروژه با هدف ساخت بزرگ‌ترین مخزن مستندات فارسی در حوزه علوم کامپیوتر و برنامه‌نویسی ایجاد شده است؛ جایی که هر کسی بتواند بدون نیاز به منابع انگلیسی، مفاهیم تخصصی را به زبان ساده و قابل فهم یاد بگیرد.]]></summary>
+        <content type="html"><![CDATA[<p>این پروژه با هدف ساخت <strong>بزرگ‌ترین مخزن مستندات فارسی در حوزه علوم کامپیوتر و برنامه‌نویسی</strong> ایجاد شده است؛ جایی که هر کسی بتواند بدون نیاز به منابع انگلیسی، مفاهیم تخصصی را به زبان ساده و قابل فهم یاد بگیرد.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-چرا-این-پروژه-ایجاد-شد">🎯 چرا این پروژه ایجاد شد؟<a href="https://aliznet.ir/blog/welcome-to-aliznet#-%DA%86%D8%B1%D8%A7-%D8%A7%DB%8C%D9%86-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%D8%B4%D8%AF" class="hash-link" aria-label="لینک مستقیم به 🎯 چرا این پروژه ایجاد شد؟" title="لینک مستقیم به 🎯 چرا این پروژه ایجاد شد؟" translate="no">​</a></h2>
+<p>سال‌هاست اکثر منابع معتبر برنامه‌نویسی و علوم کامپیوتر فقط به زبان انگلیسی منتشر می‌شوند.<br>
+<!-- -->این موضوع باعث می‌شود بسیاری از علاقه‌مندان فارسی‌زبان نتوانند به سرعت، کیفیت و عمق کافی یاد بگیرند.</p>
+<p>ما باور داریم که:</p>
+<ul>
+<li class="">دانش باید <strong>در دسترس همه</strong> باشد</li>
+<li class="">آموزش نباید به مهارت زبان محدود شود</li>
+<li class="">منابع فارسی می‌توانند به رشد جامعه برنامه‌نویسی ایران کمک بزرگی کنند</li>
+<li class="">همکاری جامعه می‌تواند یک مرجع علمی ارزشمند ایجاد کند</li>
+</ul>
+<p>به همین دلیل این پروژه راه‌اندازی شد تا مسیر یادگیری برای همه ساده‌تر شود.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-هدف-ما-چیست">📚 هدف ما چیست؟<a href="https://aliznet.ir/blog/welcome-to-aliznet#-%D9%87%D8%AF%D9%81-%D9%85%D8%A7-%DA%86%DB%8C%D8%B3%D8%AA" class="hash-link" aria-label="لینک مستقیم به 📚 هدف ما چیست؟" title="لینک مستقیم به 📚 هدف ما چیست؟" translate="no">​</a></h2>
+<p>هدف AlizNet فقط ترجمه ساده نیست.<br>
+<!-- -->ما می‌خواهیم:</p>
+<ul>
+<li class="">محتوای <strong>با کیفیت، دقیق و استاندارد</strong> تولید کنیم</li>
+<li class="">فصل‌ها و دوره‌ها را مطابق ساختار آموزشی معتبر دنیا دسته‌بندی کنیم</li>
+<li class="">مثال‌های قابل اجرا ارائه دهیم</li>
+<li class="">مفاهیم را با زبان ساده اما <strong>علمی و دقیق</strong> توضیح دهیم</li>
+<li class="">امکان مشارکت آزاد برای همه فراهم کنیم</li>
+</ul>
+<p>این پروژه فقط یک سایت نیست؛<br>
+<strong>یک حرکت جمعی برای ارتقای دانش فناوری به زبان فارسی است.</strong></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-چگونه-مشارکت-کنید">🚀 چگونه مشارکت کنید؟<a href="https://aliznet.ir/blog/welcome-to-aliznet#-%DA%86%DA%AF%D9%88%D9%86%D9%87-%D9%85%D8%B4%D8%A7%D8%B1%DA%A9%D8%AA-%DA%A9%D9%86%DB%8C%D8%AF" class="hash-link" aria-label="لینک مستقیم به 🚀 چگونه مشارکت کنید؟" title="لینک مستقیم به 🚀 چگونه مشارکت کنید؟" translate="no">​</a></h2>
+<p>مشارکت شما قلب تپنده این پروژه است ❤️</p>
+<p>اگر می‌خواهید کمک کنید، می‌توانید:</p>
+<ul>
+<li class="">یک محتوای جدید اضافه کنید</li>
+<li class="">محتوای دیگران را بهبود دهید</li>
+<li class="">غلط‌های املایی یا علمی را اصلاح کنید</li>
+<li class="">دسته‌بندی‌های جدید پیشنهاد دهید</li>
+<li class="">آموزش‌های ویدئویی تولید کنید</li>
+<li class="">نمونه‌کدهای بهتر اضافه کنید</li>
+<li class="">پست‌های وبلاگ بنویسید</li>
+</ul>
+<p>برای شروع کافیست مخزن را Fork کنید و یک Pull Request بفرستید.<br>
+<!-- -->در README کامل، قوانین همکاری مرحله‌به‌مرحله توضیح داده شده‌اند.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-کانال-یوتیوب-aliznet">🎥 کانال یوتیوب AlizNet<a href="https://aliznet.ir/blog/welcome-to-aliznet#-%DA%A9%D8%A7%D9%86%D8%A7%D9%84-%DB%8C%D9%88%D8%AA%DB%8C%D9%88%D8%A8-aliznet" class="hash-link" aria-label="لینک مستقیم به 🎥 کانال یوتیوب AlizNet" title="لینک مستقیم به 🎥 کانال یوتیوب AlizNet" translate="no">​</a></h2>
+<p>ما علاوه بر مستندات، در تلاشیم تا یک کانال یوتیوب راه اندازی کنیم تا آموزش‌های ویدئویی منتشر کنیم.</p>
+<p>در این کانال به مرور:</p>
+<ul>
+<li class="">آموزش زبان‌های برنامه‌نویسی</li>
+<li class="">مباحث پایه علوم کامپیوتر</li>
+<li class="">دوره‌های تخصصی</li>
+<li class="">آموزش ابزارها و فریم‌ورک‌ها</li>
+<li class="">نکات و ترفندهای برنامه‌نویسی</li>
+</ul>
+<p>همه به <strong>زبان فارسی</strong> منتشر خواهند شد.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-این-پروژه-چطور-ساخته-شده">🧱 این پروژه چطور ساخته شده؟<a href="https://aliznet.ir/blog/welcome-to-aliznet#-%D8%A7%DB%8C%D9%86-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%DA%86%D8%B7%D9%88%D8%B1-%D8%B3%D8%A7%D8%AE%D8%AA%D9%87-%D8%B4%D8%AF%D9%87" class="hash-link" aria-label="لینک مستقیم به 🧱 این پروژه چطور ساخته شده؟" title="لینک مستقیم به 🧱 این پروژه چطور ساخته شده؟" translate="no">​</a></h2>
+<p>این سایت با <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer" class=""><strong>Docusaurus</strong></a> ساخته شده است.<br>
+<!-- -->Docusaurus یک سیستم Documentation Modern Based on React است که به ما اجازه می‌دهد:</p>
+<ul>
+<li class="">ساختار مستندات را تمیز و ماژولار مدیریت کنیم</li>
+<li class="">بلاگ و صفحات سفارشی اضافه کنیم</li>
+<li class="">صفحه اصلی زیبایی بسازیم</li>
+<li class="">محتوا را با فایل‌های Markdown/MDX اضافه کنیم</li>
+<li class="">از افزونه‌ها و تم‌ها بهره ببریم</li>
+</ul>
+<p>تمام کدهای سایت به‌صورت آزاد در اختیار شماست.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-از-شما-همراهان-سپاسگزاریم">❤️ از شما همراهان سپاسگزاریم<a href="https://aliznet.ir/blog/welcome-to-aliznet#%EF%B8%8F-%D8%A7%D8%B2-%D8%B4%D9%85%D8%A7-%D9%87%D9%85%D8%B1%D8%A7%D9%87%D8%A7%D9%86-%D8%B3%D9%BE%D8%A7%D8%B3%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C%D9%85" class="hash-link" aria-label="لینک مستقیم به ❤️ از شما همراهان سپاسگزاریم" title="لینک مستقیم به ❤️ از شما همراهان سپاسگزاریم" translate="no">​</a></h2>
+<p>اگر امروز این پست را می‌خوانید، یعنی شما هم به رشد و گسترش دانش فارسی باور دارید.<br>
+<!-- -->از شما ممنونیم که در کنار ما هستید.</p>
+<p>این تازه <strong>شروع راه</strong> است.<br>
+<!-- -->با کمک شما، می‌توانیم یک منبع آموزشی جامع برای میلیون‌ها فارسی‌زبان بسازیم.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-با-ما-همراه-باشید">✨ با ما همراه باشید<a href="https://aliznet.ir/blog/welcome-to-aliznet#-%D8%A8%D8%A7-%D9%85%D8%A7-%D9%87%D9%85%D8%B1%D8%A7%D9%87-%D8%A8%D8%A7%D8%B4%DB%8C%D8%AF" class="hash-link" aria-label="لینک مستقیم به ✨ با ما همراه باشید" title="لینک مستقیم به ✨ با ما همراه باشید" translate="no">​</a></h2>
+<ul>
+<li class="">به مخزن سر بزنید</li>
+<li class="">محتوا اضافه کنید</li>
+<li class="">ایده بدهید</li>
+<li class="">و در ساخت آینده آموزش فارسی نقش داشته باشید</li>
+</ul>
+<p><strong>AlizNet یک پروژه جمعی است—و شما بخشی از آن هستید.</strong></p>
+<p>🙏 سپاس از همراهی شما</p>]]></content>
+        <author>
+            <name>علیرضا</name>
+            <uri>https://arfadaei.ir</uri>
+        </author>
+        <category label="Computer Science" term="Computer Science"/>
+    </entry>
+</feed>
