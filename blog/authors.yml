@@ -1,14 +1,12 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+aliz:
+  name: علیرضا
+  title: AI and Software Engineer, AlizٔNet founder
+  url: https://arfadaei.ir
+  image_url: https://arfadaei.ir/assets/images/aliz-photo.JPG
   page: true
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    linkedin: aliz-f
+    github: aliz-f
 
 slorber:
   name: Sébastien Lorber
