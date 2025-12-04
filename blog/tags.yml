@@ -1,19 +1,15 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+computer:
+  label: Computer Science
+  permalink: /computer-Science
+  description: topics related to Computer Science
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+Python:
+  label: Python
+  permalink: /python
+  description: topics related to Python
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+Security:
+  label: امنیت
+  permalink: /security
+  description: موضوعات مربوط به امنیت سایبری
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
