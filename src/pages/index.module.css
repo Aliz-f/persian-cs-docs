@@ -21,3 +21,35 @@
   align-items: center;
   justify-content: center;
 }
+
+.cardsSection {
+    background-color: var(--ifm-color-emphasis-100);
+    padding: 1rem 0;
+}
+
+.YoutubeSection{}
+
+.authorSection{
+    background-color: var(--ifm-color-emphasis-100);
+    padding: 1rem 0;
+}
+
+.featuresSection{
+    padding: 1rem 0;
+}
+
+.youtube_container{
+    margin: 0 auto;
+    max-width: var(--ifm-container-width);
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.course_container {
+    margin: 0 auto;
+    max-width: var(--ifm-container-width);
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+    text-align: center;
+}
