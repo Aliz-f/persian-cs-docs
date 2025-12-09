@@ -8,6 +8,7 @@ import YoutubeCarousel from '@site/src/components/YoutubeCarousel';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import Author from "@site/src/components/Author";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -42,7 +43,7 @@ export default function Home() {
             <main>
 
                 <section className={styles.cardsSection}>
-                    <div className={styles.course_container}>
+                    <div className={styles.section_container}>
                         <Heading as="h1" className="hero__title">
                             دوره ها
                         </Heading>
@@ -51,7 +52,7 @@ export default function Home() {
                 </section>
 
                 <section className={styles.YoutubeSection}>
-                    <div className={styles.youtube_container}>
+                    <div className={styles.section_container}>
                         <Heading as="h1" className="hero__title">
                             ویدیوها
                         </Heading>
@@ -59,9 +60,14 @@ export default function Home() {
                     <YoutubeCarousel />
                 </section>
 
-                {/*/!* TODO: complete Author section *!/*/}
-                {/*<section className={styles.authorsSection}>*/}
-                {/*</section>*/}
+                <section className={styles.authorSection}>
+                    <div className={styles.section_container}>
+                        <Heading as="h1" className="hero__title">
+                            نویسندگان
+                        </Heading>
+                    </div>
+                    <Author/>
+                </section>
 
                 {/*/!* TODO: complete Features section *!/*/}
                 {/*<section className={styles.featuresSection}>*/}
