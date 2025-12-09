@@ -14,7 +14,7 @@ const authorList = Object.entries(authors).map(([id, author]) => ({
     socials: author.socials || {},
 }));
 
-// Define which socials you support and how to build their links
+
 const SOCIAL_CONFIG = [
     {
         key: "github",
@@ -27,8 +27,8 @@ const SOCIAL_CONFIG = [
         getHref: (value) => `https://instagram.com/${value}`,
     },
     {
-        key: "x", // or "twitter" depending on your JSON
-        icon: "logo-twitter", // Ionicons doesn't have "logo-x" yet, so twitter is fine
+        key: "x",
+        icon: "logo-twitter",
         getHref: (value) => `https://x.com/${value}`,
     },
     {
@@ -60,14 +60,10 @@ function AuthorCarousel() {
                                         loading="lazy"
                                     />
                                 </div>
-
-                                <div className={styles.text}>
-                                    <p className={styles.author_title}>{author.name}</p>
-                                    <p className={styles.author_desc}>{author.title}</p>
-                                </div>
-
+                                <p className={styles.author_title}>{author.name}</p>
+                                <p className={styles.author_desc}>{author.title}</p>
                                 <div className={styles.icons}>
-                                    {/* Social icons based on what exists */}
+
                                     {SOCIAL_CONFIG.map(({key, icon, getHref}) => {
                                         const value = socials?.[key];
 
@@ -99,6 +95,7 @@ function AuthorCarousel() {
                                         <a
                                             href={`/blog/authors/${author.pagePermalink}`}
                                             aria-label="Author posts"
+                                            target="_blank"
                                         >
                                             <ion-icon name="archive"></ion-icon>
                                         </a>
