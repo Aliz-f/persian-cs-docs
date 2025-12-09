@@ -162,7 +162,7 @@ const config = {
                     },
                     {to: '/blog', label: 'بلاگ', position: 'left'},
                     {
-                        href: 'https://github.com/facebook/docusaurus',
+                        href: 'https://github.com/Aliz-f/persian-cs-docs',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -185,23 +185,6 @@ const config = {
                         ],
                     },
                     {
-                        title: 'انجمن ها',
-                        items: [
-                            {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                            {
-                                label: 'X',
-                                href: 'https://x.com/docusaurus',
-                            },
-                        ],
-                    },
-                    {
                         title: 'بیشتر',
                         items: [
                             {
@@ -214,7 +197,7 @@ const config = {
                             },
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
+                                href: 'https://github.com/Aliz-f/persian-cs-docs',
                             },
                         ],
                     },
