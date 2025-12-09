@@ -22,7 +22,7 @@ function YouTubeCarousel() {
                                     className={styles.youtube_img}
                                     width="384"
                                     height="192"
-                                    src={video.rich_thumbnail.url? video.rich_thumbnail.url: video.thumbnail.url}
+                                    src={video.thumbnail.url}
                                     alt={video.title}
                                 />
                             </div>
