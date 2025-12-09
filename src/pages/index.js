@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import SearchBar from '@theme/SearchBar';
 
 import CourseCards from '@site/src/components/CourseCards'
 import YoutubeCarousel from '@site/src/components/YoutubeCarousel';
@@ -11,24 +12,22 @@ import styles from './index.module.css';
 import Author from "@site/src/components/Author";
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="docs/category/cs-core">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
+    const { siteConfig } = useDocusaurusContext();
+
+    return (
+        <header className={clsx('hero hero--primary', styles.heroBanner)}>
+            <div className={clsx('container', styles.container)}>
+                <Heading as="h1" className="hero__title">
+                    {siteConfig.title}
+                </Heading>
+                <p className="hero__subtitle">{siteConfig.tagline}</p>
+                {/* 👇 Big hero search box */}
+                <div className={styles.heroSearch}>
+                    <SearchBar />
+                </div>
+            </div>
+        </header>
+    );
 }
 
 export default function Home() {
