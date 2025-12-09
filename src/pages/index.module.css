@@ -4,22 +4,22 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+    padding: 4rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+    .heroBanner {
+        padding: 2rem;
+    }
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cardsSection {
@@ -27,26 +27,17 @@
     padding: 1rem 0;
 }
 
-.YoutubeSection{}
 
-.authorSection{
+.authorSection {
     background-color: var(--ifm-color-emphasis-100);
     padding: 1rem 0;
 }
 
-.featuresSection{
+.featuresSection {
     padding: 1rem 0;
 }
 
-.youtube_container{
-    margin: 0 auto;
-    max-width: var(--ifm-container-width);
-    padding: 10px 10px 0px 10px;
-    width: 100%;
-    text-align: center;
-}
-
-.course_container {
+.section_container {
     margin: 0 auto;
     max-width: var(--ifm-container-width);
     padding: 10px 10px 0px 10px;
