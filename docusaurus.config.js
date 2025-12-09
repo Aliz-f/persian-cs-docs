@@ -79,6 +79,17 @@ const config = {
             }),
         ],
     ],
+    scripts: [
+        // Ionicons v7 (for example)
+        {
+            src: 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js',
+            type: 'module',
+        },
+        {
+            src: 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js',
+            noModule: true,
+        },
+    ],
 
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
