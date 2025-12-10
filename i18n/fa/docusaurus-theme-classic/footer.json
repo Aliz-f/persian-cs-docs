@@ -1,0 +1,34 @@
+{
+  "link.title.دوره ها": {
+    "message": "دوره‌ها",
+    "description": "عنوان ستون لینک‌های فوتر با عنوان «دوره‌ها»"
+  },
+  "link.title.بیشتر": {
+    "message": "بیشتر",
+    "description": "عنوان ستون لینک‌های فوتر با عنوان «بیشتر»"
+  },
+  "link.item.label.مباحث پایه علوم کامپیوتر": {
+    "message": "مباحث پایه علوم کامپیوتر",
+    "description": "برچسب لینک فوتر برای مباحث پایه علوم کامپیوتر"
+  },
+  "link.item.label.زبان برنامه نویسی Python": {
+    "message": "زبان برنامه‌نویسی Python",
+    "description": "برچسب لینک فوتر برای زبان برنامه‌نویسی Python"
+  },
+  "link.item.label.بلاگ": {
+    "message": "بلاگ",
+    "description": "برچسب لینک فوتر برای بلاگ"
+  },
+  "link.item.label.نویسندگان": {
+    "message": "نویسندگان",
+    "description": "برچسب لینک فوتر برای نویسندگان"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "برچسب لینک فوتر برای GitHub"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 Aliz-CS. Built with Docusaurus",
+    "description": "The footer copyright"
+  }
+}

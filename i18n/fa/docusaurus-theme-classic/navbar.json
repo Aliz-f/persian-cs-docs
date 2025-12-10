@@ -1,0 +1,26 @@
+{
+  "logo.alt": {
+    "message": "لوگوی سایت",
+    "description": "متن جایگزین لوگوی نوار بالایی"
+  },
+  "item.label.دوره ها": {
+    "message": "دوره‌ها",
+    "description": "آیتم نوار بالا با برچسب دوره‌ها"
+  },
+  "item.label.مباحث پایه علوم کامپیوتر": {
+    "message": "مباحث پایه علوم کامپیوتر",
+    "description": "آیتم نوار بالا با برچسب مباحث پایه علوم کامپیوتر"
+  },
+  "item.label.زبان برنامه نویسی Python": {
+    "message": "زبان برنامه‌نویسی Python",
+    "description": "آیتم نوار بالا با برچسب زبان برنامه‌نویسی Python"
+  },
+  "item.label.بلاگ": {
+    "message": "بلاگ",
+    "description": "آیتم نوار بالا با برچسب بلاگ"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "آیتم نوار بالا با برچسب GitHub"
+  }
+}

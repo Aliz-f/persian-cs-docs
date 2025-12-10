@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "نسخه بعدی",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.مباحث پایه علوم کامپیوتر": {
+    "message": "مباحث پایه علوم کامپیوتر",
+    "description": "برچسب دسته‌بندی 'مباحث پایه علوم کامپیوتر' در سایدبار 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.مبانی کامپیوتر": {
+    "message": "مبانی کامپیوتر",
+    "description": "برچسب دسته‌بندی 'مبانی کامپیوتر' در سایدبار 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.زبان برنامه نویسی Python": {
+    "message": "زبان برنامه‌نویسی Python",
+    "description": "برچسب دسته‌بندی 'زبان برنامه‌نویسی Python' در سایدبار 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.مبانی زبان برنامه نویسی Python": {
+    "message": "مبانی زبان برنامه‌نویسی Python",
+    "description": "برچسب دسته‌بندی 'مبانی زبان برنامه‌نویسی Python' در سایدبار 'tutorialSidebar'"
+  },
+  "sidebar.computerScienceSidebar.category.مبانی کامپیوتر": {
+    "message": "مبانی کامپیوتر",
+    "description": "برچسب دسته‌بندی 'مبانی کامپیوتر' در سایدبار 'computerScienceSidebar'"
+  },
+  "sidebar.pythonSidebar.category.مبانی زبان برنامه نویسی Python": {
+    "message": "مبانی زبان برنامه‌نویسی Python",
+    "description": "برچسب دسته‌بندی 'مبانی زبان برنامه‌نویسی Python' در سایدبار 'pythonSidebar'"
+  }
+}

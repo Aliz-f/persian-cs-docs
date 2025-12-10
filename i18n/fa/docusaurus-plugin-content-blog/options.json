@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "بلاگ",
+    "description": "عنوان بلاگ برای استفاده در سئو"
+  },
+  "description": {
+    "message": "بلاگ",
+    "description": "توضیحات بلاگ برای استفاده در سئو"
+  },
+  "sidebar.title": {
+    "message": "آخرین نوشته‌ها",
+    "description": "برچسب سایدبار سمت چپ"
+  }
+}
