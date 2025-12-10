@@ -67,6 +67,7 @@
 
 .heroSearch :global(.DocSearch-Button-Keys) {
     font-size: 0.75rem;
+    display: None;
 }
 
 .heroSearch :global(.DocSearch-Button:hover),
@@ -77,7 +78,7 @@
 
 .heroSearch :global(.DocSearch-Button) {
     width: 100%;
-    padding: 1.1rem 1.5rem;
+    padding: 2rem 1rem;
     border-radius: 999px; /* pill shape */
     font-size: 1rem;
     box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
@@ -93,4 +94,9 @@
     display: inline-block !important;
     opacity: 1;
     font-size: 1.4rem;
+    padding: .5rem 1rem;
+}
+
+:global(.DocSearch-Button-Placeholder) {
+    font-family: var(--ifm-font-family-base);
 }
