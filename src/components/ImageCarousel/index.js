@@ -19,9 +19,6 @@ export default function CarouselSlides({ slideImages }) {
                     </div>
                 </React.Fragment>
             ))}
-            <div className={styles.counter} count={total}>
-                / {total}
-            </div>
         </div>
     );
 }
