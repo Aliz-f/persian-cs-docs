@@ -2,7 +2,7 @@
 sidebar_position: 1
 slug: /cs-core
 ---
-# فهرست یادگیری مباحث پایه علوم کامپیوتر 
+# فهرست یادگیری
 
 این راهنما برای کمک به یادگیری مباحث اصلی **Computer Science** طراحی شده است.  
 در این مجموعه، موضوعاتی مانند **Operating Systems، DBMS، Computer Networks، Programming، Data Structures** و بسیاری مفاهیم دیگر با توضیحات کامل و آموزشی پوشش داده می‌شوند.
