@@ -50,14 +50,14 @@ export default function Home() {
                     <CourseCards />
                 </section>
 
-                <section className={styles.YoutubeSection}>
-                    <div className={styles.section_container}>
-                        <Heading as="h1" className="hero__title">
-                            ویدیوها
-                        </Heading>
-                    </div>
-                    <YoutubeCarousel />
-                </section>
+                {/*<section className={styles.YoutubeSection}>*/}
+                {/*    <div className={styles.section_container}>*/}
+                {/*        <Heading as="h1" className="hero__title">*/}
+                {/*            ویدیوها*/}
+                {/*        </Heading>*/}
+                {/*    </div>*/}
+                {/*    <YoutubeCarousel />*/}
+                {/*</section>*/}
 
                 <section className={styles.authorSection}>
                     <div className={styles.section_container}>

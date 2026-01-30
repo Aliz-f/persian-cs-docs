@@ -55,8 +55,8 @@ const config = {
                     sidebarPath: './sidebars.js',
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    // editUrl:
-                    //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    editUrl:
+                      'https://github.com/Aliz-f/persian-cs-docs/tree/main/',
                 },
                 blog: {
                     showReadingTime: true,
@@ -66,8 +66,8 @@ const config = {
                     },
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    // editUrl:
-                    //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    editUrl:
+                      'https://github.com/Aliz-f/persian-cs-docs/tree/main/',
                     // Useful options to enforce blogging best practices
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
@@ -80,7 +80,6 @@ const config = {
         ],
     ],
     scripts: [
-        // Ionicons v7 (for example)
         {
             src: 'https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js',
             type: 'module',
@@ -179,9 +178,9 @@ const config = {
                     },
                     {
                         type: 'docSidebar',
-                        sidebarId: 'pythonSidebar',
+                        sidebarId: 'cehSidebar',
                         position: 'left',
-                        label: 'زبان برنامه نویسی Python',
+                        label: 'هک قانونمند (Ethical Hacking)',
                     },
                     {to: '/blog', label: 'بلاگ', position: 'left'},
                     {
@@ -202,8 +201,8 @@ const config = {
                                 to: 'docs/category/cs-core',
                             },
                             {
-                                label: 'زبان برنامه نویسی Python',
-                                to: 'docs/category/python',
+                                label: 'هک قانونمند (Ethical Hacking)',
+                                to: 'docs/category/ceh',
                             },
                         ],
                     },
